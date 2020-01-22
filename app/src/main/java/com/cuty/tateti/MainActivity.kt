@@ -2,12 +2,12 @@ package com.cuty.tateti
 
 
 import android.graphics.Color
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
-import java.lang.Exception
+
 
 class MainActivity : AppCompatActivity() {
     var cellID = 0
@@ -147,13 +147,14 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Jugador 2 ganó", Toast.LENGTH_LONG).show()
             }
         //resetear()
+        val intent = intent
+        finish()
+        startActivity(intent)
+
     }
 
     }
-    fun resetear(view: View){
 
-
-    }
 
 
 
