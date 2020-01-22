@@ -146,7 +146,12 @@ class MainActivity : AppCompatActivity() {
             }else{
                 Toast.makeText(this,"Jugador 2 ganó", Toast.LENGTH_LONG).show()
             }
-        }
+        //resetear()
+    }
+
+    }
+    fun resetear(view: View){
+
 
     }
 
